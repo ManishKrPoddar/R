@@ -1,0 +1,9 @@
+##Download R
+cran.r-project.org
+##Hello world in R
+print('hello world')
+mean(1:20)
+x <- 1:20 assignment operator
+mean(x)
+myScript.R -- name of script extrension
+source("path",echo=TRUE)
