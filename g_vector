@@ -1,0 +1,43 @@
+# Vector is same as array
+index start  with 1
+Type of vector
+1.Numeric vector
+2.Character Vector
+In R every thing is a vector
+
+
+##Creating some of the vector
+MyFirstVector <- c(3,25,89,78)
+MyFirstVector
+is.numeric(MyFirstVector)
+is.integer(MyFirstVector)
+is.double(MyFirstVector)
+ 
+V2 <- c(23L,12L,234L)
+is.numeric(V2)
+is.integer(V2)
+is.double(V2)
+
+v3 <- ("Manish","Kumar","Poddar")
+v3
+is.character(v3)
+is.numeric(v3)
+
+#You cannot mix different data type in Vector
+seq() #Sequence is like :
+rep() # replicate
+
+seq(1,15)
+1:15
+
+seq(1,15,2)
+z <- seq(1,15,2)
+z
+
+rep(3,50)
+d <- rep(3,50)
+
+rep("a",5)
+x <- c(80,20)
+rep(x,5)
+
