@@ -1,0 +1,23 @@
+http://www.statmethods.net
+
+delete ggplot2
+got to 
+https://cran.r-project.org
+
+install.packages("ggplot2")
+
+##Active ggplot2
+
+library(ggplot2)
+?qplot()
+?ggplot()
+?diamonds
+
+
+qplot(data=diamonds, carat, price, colour=clarity, facets=.~clarity)
+
+
+
+
+
+
